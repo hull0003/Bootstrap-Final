@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+.page-header {
+    padding: 1rem 2rem;
+    color: antiquewhite;
+    background-image: url(../img/crocus.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    min-height: 40%;
+    background-size: cover;
+
+}
+
+nav {
+    background-color: #D0C0E7;
+}
+
+
+container {
+    vertical-align: center;
+    display: grid;
+    align-items: center;
+    margin: 1em;
+    max-width: 80%;
+
+
+}
+
+.row {
+    padding: 1rem;
+
+
+}
+
+.card {
+    margin: 1rem;
+    float: none;
+
+}
+
+form {
+    margin: 15px;
+}
