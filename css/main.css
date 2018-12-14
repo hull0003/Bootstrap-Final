@@ -19,8 +19,13 @@
     min-height: 40vh;
     background-size: cover;
     text-align: center;
+
 }
 
+h1 {
+
+    text-shadow: 2px 2px hsl(270, 33%, 42%);
+}
 
 
 nav {
@@ -66,10 +71,14 @@ dt {
     padding: 0rem;
     float: none;
     text-align: center;
-    background-color;
+
     max-width: 20rem;
     height: 25rem;
 
+}
+
+.card-footer {
+    background-color: hsl(270, 50%, 95%);
 }
 
 h5.card-title {
@@ -88,6 +97,16 @@ form {
     margin: 15px;
 }
 
+label {
+    color: hsl(270, 33%, 42%);
+    font-weight: 500;
+}
+
+.form-control {
+    background-color: hsl(270, 50%, 95%);
+
+}
+
 .btn {
 
     border-radius: 10px;
@@ -96,22 +115,22 @@ form {
     color: hsl(270, 33%, 96%);
 }
 
-.btn-dark {
+.btn-secondary {
     background-color: hsl(270, 50%, 64%);
     border-color: hsl(270, 50%, 64%);
     color: hsl(270, 33%, 96%);
 }
 
-.btn-dark:hover {
+.btn-secondary:hover {
     background: hsl(270, 33%, 42%);
 }
 
-.btn-dark:focus ~ .btn-dark::before {
+.btn-secondary:focus ~ .btn-secondary::before {
     background: hsl(270, 33%, 42%);
     box-shadow: 0 0 0 3px #fff, 0 0 0 0.3rem rgba(255, 123, 255, 0.25);
 }
 
-.btn-dark:active {
+.btn-secondary:active {
     background: hsl(270, 33%, 42%);
 
 
@@ -119,9 +138,10 @@ form {
 
 
 
-.custom-radio .custom-control-input:checked ~ .custom-control-label::before,
+.custom-radio .custom-control-input:checked,
+.custom-control-label::before,
 .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
-    background-color: violet;
+    background-color: hsl(270, 50%, 64%);
     background-image: url(data:image/svg+xml;
     charset=utf8, %3Csvg xmlns='http://www.w3.org/2000/svg'viewBox='-4 -4 8 8'%3E%3Ccircle r='3'fill='%23fff'/%3E%3C/svg%3E);
     border-radius: 50%;
