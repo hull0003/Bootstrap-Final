@@ -18,8 +18,10 @@
     height: 300px;
     min-height: 40vh;
     background-size: cover;
-
+    text-align: center;
 }
+
+
 
 nav {
     background-color: hsl(270, 33%, 42%);
@@ -38,12 +40,25 @@ container {
 
 .row {
     padding: 1rem;
+    margin: 1rem;
 
 
 }
 
+dd {
+    padding-top: .5rem;
+    background-color: hsl(270, 50%, 95%);
+}
+
 i {
     font-size: 50px;
+    color: hsl(270, 50%, 64%);
+}
+
+dt {
+    text-align: center;
+    color: hsl(270, 33%, 42%);
+
 }
 
 .card {
