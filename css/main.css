@@ -16,13 +16,13 @@
     background-image: url(../img/crocus.jpg);
     background-repeat: no-repeat;
     height: 300px;
-    min-height: 40%;
+    min-height: 40vh;
     background-size: cover;
 
 }
 
 nav {
-    background-color: #D0C0E7;
+    background-color: hsl(270, 33%, 42%);
 }
 
 
@@ -30,7 +30,7 @@ container {
     vertical-align: center;
     display: grid;
     align-items: center;
-    margin: 1em;
+    margin: 1rem;
     max-width: 80%;
 
 
@@ -42,12 +42,79 @@ container {
 
 }
 
+i {
+    font-size: 50px;
+}
+
 .card {
     margin: 1rem;
+    padding: 0rem;
     float: none;
+    text-align: center;
+    background-color:
+        max-width: 20rem;
 
+}
+
+h5.card-title {
+    color: hsl(270, 33%, 42%);
+}
+
+a.card-link {
+    color: hsl(270, 99%, 58%);
+}
+
+a.card-link:hover {
+    color: hsl(270, 33%, 42%);
 }
 
 form {
     margin: 15px;
+}
+
+.btn {
+
+    border-radius: 24px;
+}
+
+.btn-dark {
+    background-color: hsl(270, 50%, 64%);
+    border-color: hsl(270, 50%, 64%);
+    color: hsl(270, 33%, 96%);
+}
+
+.btn-dark:hover {
+    background: hsl(270, 33%, 42%);
+}
+
+.btn-dark:focus ~ .btn-dark::before {
+    background: hsl(270, 33%, 42%);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 0.3rem rgba(255, 123, 255, 0.25);
+}
+
+.btn-dark:active {
+    background: hsl(270, 33%, 42%);
+
+
+}
+
+
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before,
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: violet;
+    background-image: url(data:image/svg+xml;
+    charset=utf8, %3Csvg xmlns='http://www.w3.org/2000/svg'viewBox='-4 -4 8 8'%3E%3Ccircle r='3'fill='%23fff'/%3E%3C/svg%3E);
+    border-radius: 50%;
+}
+
+.custom-radio .custom-control-input:active ~ .custom-control-label::before {
+    color: #fff;
+    background-color: purple;
+}
+
+
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+    background-color: purple;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 0.3rem rgba(255, 123, 255, 0.25);
 }
